@@ -1,5 +1,5 @@
 public class Test {
     public static void main(String[] args) {
-        System.out.println("Тестинг 1234/");
+        System.out.println("Тестинг / фистинг");
     }
 }
