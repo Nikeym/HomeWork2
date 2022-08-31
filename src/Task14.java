@@ -15,7 +15,7 @@ public class Task14 {
         if (cost >= 50000 && cost <= 120000 && (phone.contains("samsung") || phone.contains("iphone"))) {
             System.out.println("Можно купить");
         } else {
-            System.out.println("Не подходит");
+            System.out.println("Не подходит/");
         }
 
     }
