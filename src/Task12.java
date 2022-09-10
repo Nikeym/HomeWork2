@@ -8,7 +8,7 @@ public class Task12 {
         String pass = input.next();
 
         if (pass.length() < 8) {
-            System.out.println("Пароль не прошел проверку");
+            System.out.println("пароль не прошел проверку");
         }
 
         for (int i = 0 ; i < pass.length(); i++) {
@@ -23,12 +23,12 @@ public class Task12 {
                 haveSimbol = true;
             }
             if (haveNumber && haveUpperCase && haveLowerCase && haveSimbol) {
-                System.out.println("Пароль надежный");
+                System.out.println("пароль надежный");
                 return;
             }
         }
 
-        System.out.println("Пароль не прошел проверку");
+        System.out.println("пароль не прошел проверку");
 
     }
 }
